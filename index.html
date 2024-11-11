@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="hero">
+            <img src="https://ams3.digitaloceanspaces.com/graffica/2023/02/cocacola-logo.jpeg" alt="Coca-Cola Logo" class="logo">
+            <h1 class="title">Bienvenido al Mundo de Coca-Cola</h1>
+            <p class="description">Descubre la historia, los sabores y las experiencias que Coca-Cola te ofrece.</p>
+            <button class="cta-button" onclick="showModal()">Conoce Más</button>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h2 class="feature-title">Sabor Auténtico</h2>
+                <p class="feature-description">La fórmula original de Coca-Cola sigue siendo un secreto bien guardado, brindando un sabor único e inconfundible que ha cautivado a generaciones.</p>
+                <a href="#" class="feature-link">Descubre los Ingredientes</a>
+            </div>
+            <div class="feature-card">
+                <h2 class="feature-title">Innovación Constante</h2>
+                <p class="feature-description">Coca-Cola evoluciona constantemente, ofreciendo nuevos sabores y productos que se adaptan a los gustos y necesidades de los consumidores.</p>
+                <a href="#" class="feature-link">Explora Nuestras Variedades</a>
+            </div>
+            <div class="feature-card">
+                <h2 class="feature-title">Responsabilidad Social</h2>
+                <p class="feature-description">Coca-Cola se compromete con la sostenibilidad, la protección del medioambiente y el bienestar de las comunidades donde opera.</p>
+                <a href="#" class="feature-link">Conoce Nuestras Iniciativas</a>
+            </div>
+            <div class="feature-card">
+                <h2 class="feature-title">Momentos Únicos</h2>
+                <p class="feature-description">Coca-Cola está presente en los momentos más especiales de la vida, acompañando a las personas en celebraciones y reuniones memorables.</p>
+                <a href="#" class="feature-link">Inspírate con Nuestras Campañas</a>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button" onclick="hideModal()">&times;</span>
+                <h2 class="modal-title">Descubre la Historia de Coca-Cola</h2>
+                <div class="modal-body">
+                    <p>Coca-Cola es mucho más que una simple bebida. Es un icono cultural que ha trascendido fronteras y generaciones. Conócela a fondo:</p>
+                    <ul>
+                        <li>Orígenes y Fundación de la Compañía</li>
+                        <li>Evolución del Emblemático Logotipo</li>
+                        <li>Campañas Publicitarias Icónicas</li>
+                        <li>Expansión Global y Presencia Internacional</li>
+                        <li>Compromiso con la Sostenibilidad</li>
+                        <li>Innovaciones y Nuevos Productos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="java_script/script.js"></script>
+</body>
+</html>
